@@ -12,11 +12,11 @@ const Approach = () => {
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Σχεδιασμός & Στρατηγική"
+          icon={<AceternityIcon order="Φάση 1" />}
+          des="Θα συνεργαστούμε για να χαρτογραφήσουμε τους στόχους του ιστότοπού σας, 
+          το κοινό-στόχο και τις βασικές λειτουργίες. Θα συζητήσουμε πράγματα όπως 
+          η δομή του ιστότοπου, η πλοήγηση και οι απαιτήσεις περιεχομένου."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -24,11 +24,11 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Ανάπτυξη & Ενημέρωση Προόδου"
+          icon={<AceternityIcon order="Φάση 2" />}
+          des="Μόλις συμφωνήσουμε στο σχέδιο, ξεκινάει η γραφή
+          τον κώδικα. Από τα αρχικά σκίτσα μέχρι τον τελικό κώδικα, σας κρατάμε ενήμερους
+          σε κάθε βήμα."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -39,15 +39,15 @@ const Approach = () => {
             ]}
             dotSize={2}
           />
-          {/* Radial gradient for the cute fade */}
+          {/* Ακτινωτή διαβάθμιση για το όμορφο ξεθώριασμα */}
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Ανάπτυξη & Εκκίνηση"
+          icon={<AceternityIcon order="Φάση 3" />}
+          des="Εδώ συμβαίνει η μαγεία! Βάσει του εγκεκριμένου σχεδίου, 
+          θα μετατρέψουμε τα πάντα σε λειτουργικό κώδικα, χτίζοντας τη ιδέα σας 
+          από το μηδέν."
         >
           <CanvasRevealEffect
             animationSpeed={3}
